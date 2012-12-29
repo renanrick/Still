@@ -26,7 +26,7 @@ public class FPrincipal extends Activity {
 		
 		switch (item.getItemId()) {
 		case R.id.menu_add:
-			Intent intent = new Intent(this, FEvento.class);
+			Intent intent = new Intent(this, FEventos.class);
 			startActivity(intent);
 			return true;
 		default:

@@ -23,8 +23,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="br.com.nrti.still.FEvento"
+            android:name="br.com.nrti.still.FEventos"
             android:label="Alterar Evento" >
+        </activity>
+        
+        <activity
+            android:name="br.com.nrti.still.TabEventos_Geral"
+            >
         </activity>
     </application>
 
