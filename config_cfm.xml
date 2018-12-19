@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--	tipo de atributo/credencial atendida por este xml	-->
+<credential id="cfm_medico">
+	<!-- permite carteiras baseadas em outros formatos e não apenas certificado de atributo -->
+	<sourceType>certificateAttribute</sourceType> <!-- atualmente, apenas 'certificateAttribute' é aceito  -->
+	
+	<!--	para uso futuro	-->
+	<resources>
+		<string id="labels">
+			<element type="list">
+				<uri cache="true">https://repository.validcertificadora.com.br/credentials/res/string-pt.xml</uri>
+				<language>pt</language>
+				<hash alg="SHA-256">bb6c60fbda039afcc29297b9b250a696ce6f876dd911a862d503e9f416b9c5ab</hash>
+			</element>
+			<element type="list">
+				<uri cache="true">https://repository.validcertificadora.com.br/credentials/res/string-en.xml</uri>
+				<language>en</language>
+				<hash alg="SHA-256">6993015d3f698f9ab11b0c18dd4dc8633f3590e984b3ef5b45dd7317f9a604f8</hash>
+			</element>
+		</string>
+		<image id="icons">
+			<element type="img" id="logoEntity1">
+				<device type="any">
+					<uri cache="false">https://repository.validcertificadora.com.br/credentials/img/logoEntity1.jpg</uri>
+					<hash alg="SHA-256">3f5cc095836fb11faf229a0887044ae8adb298c38517802955d22a1ef521daa4</hash>
+					<density>hdpi</density>
+				</device>
+			</element>
+			<element type="img" id="credentialBackground1">
+				<device type="ios">
+					<uri cache="true">https://repository.validcertificadora.com.br/credentials/img/ios/credentialBackgroundEntity1.jpg</uri>
+					<hash alg="SHA-256">33ec0c084e5aaa86c464a5991a1b674178f0ee7bcf9f8594d6a7b1b291409652</hash>
+					<density>xhdpi</density>
+				</device>
+				<device type="android">
+					<uri cache="true">https://repository.validcertificadora.com.br/credentials/img/android/credentialBackgroundEntity1.jpg</uri>
+					<hash alg="SHA-256">33ec0c084e5aaa86c464a5991a1b674178f0ee7bcf9f8594d6a7b1b291409651</hash>
+					<density>xhdpi</density>
+				</device>
+			</element>
+		</image>
+	</resources>
+	<!--	*********************************	-->
+
+	<certificateAttribute imageMode="1" startPage="0">
+		<!--	camada de mapeamento dos campos/labels presentes no atributo (de-para do json de dados do atributo) 	-->
+		<fieldMap>
+			<!--
+			 Atributos:
+			 	name = campo presente no json
+			 	label = título do campo que deve aparecer na tela
+			 	language = idioma ('pt-br' ou 'en')...se não definida, será utilizado 'pt-br'
+			 -->
+			<field name="crm_estado" label="UF" language="pt-br"/>
+			<field name="cargo" label="Cargo" language="pt-br"/>
+			<field name="cpf_numero" label="CPF" language="pt-br"/>
+			<field name="validade" label="Validade" language="pt-br"/>
+			<field name="rg_uf" label="UF RG" language="pt-br"/>
+			<field name="rg_orgao_emissor" label="Órgão emissor RG" language="pt-br"/>
+			<field name="filiacaoPai" label="Nome do Pai" language="pt-br"/>
+			<field name="filiacaoMae" label="Nome da Mãe" language="pt-br"/>
+			<field name="naturalidade" label="Naturalidade" language="pt-br"/>
+			<field name="crm_numero" label="Número CRM" language="pt-br"/>
+			<field name="emissao_dia" label="Dia emissão" language="pt-br"/>
+			<field name="emissao_mes" label="Mês emissão" language="pt-br"/>
+			<field name="emissao_ano" label="Ano emissão" language="pt-br"/>
+			<field name="nome_portador" label="Portador" language="pt-br"/>
+			<field name="rg_numero" label="RG" language="pt-br"/>
+			<field name="dataNascimento" label="Nascimento" language="pt-br"/>
+			<field name="naturalidadeUF" label="Naturalidade UF" language="pt-br"/>
+			<field name="emissao_cidade" label="Cidade emissão CRM" language="pt-br"/>
+		</fieldMap>
+		
+		<!--	camada de configiração da tela de detalhes do atributo	-->
+		<detailScreen>
+			<!--
+			 Atributos:
+			 name = campo presente no json...para texto fixos, utilizar o formato |texto|
+			 label = título do campo que deve aparecer na tela
+			 language = idioma ('pt-br' ou 'en')
+			 -->
+			
+			<!--	atributo que contêm a foto do portador	-->
+			<pictureField name="foto_portador" label="" language="pt-br"/>
+			
+			<!--	atributo que contêm nome do portador	-->
+			<nameField name="nome_portador" label="" language="pt-br"/>
+			
+			<!--	atributo que contêm o tipo do atributo	-->
+			<typeField name="|CFM|" label="" language="pt-br"/>
+			
+			<!--	atributo que contêm o id do atributo	-->
+			<idField name="|0123456789|" label="" language="pt-br"/>
+			<icon name="" label="" language="pt-br"/>
+			
+			<!--	atributo que contêm a data de emissão do atributo	-->
+			<emitedField name="" label="" language="pt-br"/>
+			
+			<!--	atributo que contêm a data de expiração do atributo	-->
+			<expireField name="" label="" language="pt-br"/>
+			
+			<!--	atributo que contêm a entidade emissora	-->
+			<entityField name="" label="" language="pt-br"/>
+			
+			<!--	atributo que contêm o caminho do atributo	-->
+			<pathField name="" label="" language="pt-br"/>
+			
+			<!--	listagens das propriedades que devem ser listadas em "detalhes do certificado"	-->
+			<detailList>
+				<!--
+				 Atributos:
+				 name = campo presente no json
+				 label = título do campo que deve aparecer na tela
+				 language = idioma ('pt-br' ou 'en')
+				 -->
+				<field name="crm_numero" label="Número CRM" language="pt-br"/>
+				<field name="crm_estado" label="UF" language="pt-br"/>
+				<field name="cargo" label="Cargo" language="pt-br"/>
+				<field name="cpf_numero" label="CPF" language="pt-br"/>
+				<field name="rg_numero" label="Número RG" language="pt-br"/>
+				<field name="rg_orgao_emissor" label="Emissor RG" language="pt-br"/>
+				<field name="emissao_ano" label="Eno Emissão RG" language="pt-br"/>
+				<field name="dataNascimento" label="Data de Nascimento" language="pt-br"/>
+				<field name="naturalidade" label="Naturalidade" language="pt-br"/>
+				<field name="naturalidadeUF" label="Naturalidade UF" language="pt-br"/>
+				<field name="filiacaoMae" label="Nome da Mãe" language="pt-br"/>
+				<field name="filiacaoPai" label="Nome do Pai" language="pt-br"/>
+			</detailList>
+		</detailScreen>
+		
+		<!--	configuração das fontes que serão utilizadas para exibir a imagem do atributo	-->
+		<fonts>
+			<font name="header"> <!--	nome a ser utilizado	-->
+				<size>14</size> <!--	tamanho da fonte	-->
+				<bold>1</bold> <!--	ativar negrito	-->
+				<color>#000000</color> <!--	cor da fonte	-->
+			</font>
+			<font name="detail">
+				<size>11</size>
+				<bold>0</bold>
+				<color>#000000</color>
+			</font>
+			<font name="header2">
+				<size>12</size>
+				<bold>1</bold>
+				<color>#000000</color>
+			</font>
+		</fonts>
+		
+		<!--	configuração de ajuste dos devices	-->
+		<devices>
+			<!--
+			 O nome do device deve seguir a seguinte lista:
+				 iPhones_4_4S
+				 iPhones_5_5s_5c_SE
+				 iPhones_6_6s_7_8
+				 iPhones_6Plus_6sPlus_7Plus_8Plus
+				 iPhones_X_XS
+				 iPhone_XR
+				 iPhone_XSMax
+			 -->
+			<device name="iPhones_5_5s_5c_SE">
+				<multiplier>1</multiplier> <!--	multiplicador para tamanho do device	-->
+				<correctionFactor>1</correctionFactor> <!--	fator correção para tamanho do device	-->
+				<offsetLeft>0</offsetLeft> <!--	margem esquerda adicional	-->
+				<offsetTop>0</offsetTop> <!--	margem superior adicional	-->
+				<fontMultiplier>1</fontMultiplier> <!--	multiplicador tamanho fonte	-->
+			</device>
+			
+			<device name="iPhones_6_6s_7_8">
+				<multiplier>1</multiplier> <!--	multiplicador para tamanho do device	-->
+				<correctionFactor>1.5</correctionFactor> <!--	fator correção para tamanho do device	-->
+				<offsetLeft>0</offsetLeft> <!--	margem esquerda adicional	-->
+				<offsetTop>0</offsetTop> <!--	margem superior adicional	-->
+				<fontMultiplier>1</fontMultiplier> <!--	multiplicador tamanho fonte	-->
+			</device>
+
+			<device name="iPhones_6Plus_6sPlus_7Plus_8Plus">
+				<multiplier>1</multiplier> <!--	multiplicador para tamanho do device	-->
+				<correctionFactor>1.35</correctionFactor> <!--	fator correção para tamanho do device	-->
+				<offsetLeft>0</offsetLeft> <!--	margem esquerda adicional	-->
+				<offsetTop>0</offsetTop> <!--	margem superior adicional	-->
+				<fontMultiplier>1</fontMultiplier> <!--	multiplicador tamanho fonte	-->
+			</device>
+
+			<device name="iPhone_XR">
+				<multiplier>1</multiplier> <!--	multiplicador para tamanho do device	-->
+				<correctionFactor>1.7</correctionFactor> <!--	fator correção para tamanho do device	-->
+				<offsetLeft>60</offsetLeft> <!--	margem esquerda adicional	-->
+				<offsetTop>0</offsetTop> <!--	margem superior adicional	-->
+				<fontMultiplier>1</fontMultiplier> <!--	multiplicador tamanho fonte	-->
+			</device>
+
+			<device name="iPhones_X_XS">
+				<multiplier>1</multiplier> <!--	multiplicador para tamanho do device	-->
+				<correctionFactor>1.85</correctionFactor> <!--	fator correção para tamanho do device	-->
+				<offsetLeft>55</offsetLeft> <!--	margem esquerda adicional	-->
+				<offsetTop>0</offsetTop> <!--	margem superior adicional	-->
+				<fontMultiplier>1</fontMultiplier> <!--	multiplicador tamanho fonte	-->
+			</device>
+
+			<device name="iPhone_XSMax">
+				<multiplier>1</multiplier> <!--	multiplicador para tamanho do device	-->
+				<correctionFactor>1.7</correctionFactor> <!--	fator correção para tamanho do device	-->
+				<offsetLeft>60</offsetLeft> <!--	margem esquerda adicional	-->
+				<offsetTop>0</offsetTop> <!--	margem superior adicional	-->
+				<fontMultiplier>1</fontMultiplier> <!--	multiplicador tamanho fonte	-->
+			</device>
+
+		</devices>
+		<!--	************************************************************	-->
+		
+		<!--	para uso futuro	-->
+		<load>
+			<mode>qrCodeUriCapture</mode>
+			<constraint>
+				<element type="boolean" id="uniqueOnDevice">true</element>
+				<element type="boolean" id="uniqueOnPlatform">false</element>
+				<element type="boolean" id="export">false</element>
+				<element type="boolean" id="viewerMode">true</element>
+				<element type="boolean" id="validationQrMode">true</element>
+				<element type="boolean" id="revocationList">true</element>
+				<element type="boolean" id="userAuthentication">true</element>
+				<element type="boolean" id="licenseRequired">true</element>
+			</constraint>
+			<licenseId>XXXXXXXXXXXXXX</licenseId>
+			<authentication type="pin">
+				<element type="uri" id="pinMatch">
+					<uri>https://secure.validcertificadora.com.br/credentials/rest-ws/pinValidation</uri>
+					<post>
+						<element type="string" id="deviceId" capture="internal"/>
+						<element type="string" id="deviceOs" capture="internal"/>
+						<element type="string" id="pinText" capture="textInputSecure"/>
+						<element type="string" id="gpsLocation" capture="internal"/>
+					</post>
+				</element>
+			</authentication>
+			<authentication type="bioFace">
+				<element type="uri" id="bioMatch">
+					<uri>https://secure.validcertificadora.com.br/credentials/rest-ws/bioFaceValidation</uri>
+					<post>
+						<element type="string" id="deviceId" capture="internal"/>
+						<element type="string" id="deviceOs" capture="internal"/>
+						<element type="photoSelfie" id="face" capture="photoSelfieInputSecure"/>
+						<element type="string" id="gpsLocation" capture="internal"/>
+					</post>
+				</element>
+			</authentication>
+		</load>
+		
+		<!--	para uso futuro	-->
+		<mapping>
+			<element type="string" id="numeroCarteira">
+				<key type="oid" value="exact">1.2.3.1.4.5.6</key>
+				<string resourceId="numeroCarteira"/>
+			</element>
+			<element type="string" id="cpf">
+				<key type="oid" value="substring" start="5" end="10">1.2.3.1.4.5.7</key>
+				<string resourceId="cpf"/>
+			</element>
+			<element type="string" id="dataNascimento">
+				<key type="oidExtended" parentKey="1.2.3.1.4.6" value="stringSeparator" separator=";" index="3">1.2.3.1.4.6.8</key>
+				<string resourceId="dataNascimento"/>
+			</element>
+		</mapping>
+	</certificateAttribute>
+	
+	<viewer>
+		<pages>3</pages> <!--	quantidade de páginas	-->
+		<page id="1" background="#000000"> <!--	aqui pode-se definir a cor de fundo da página (padrão é branco)	-->
+			<element type="background" id="background"> <!--	imagem de fundo da página	-->
+				<image resourceId="cfm_modelo1_01"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="|CONSELHO REGIONAL DE MEDICINA DO ESTADO|"/>
+				<font type="header2"/>
+				<position type="relative" elementId="background" x="198" y="30"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="|CÉDULA DE IDENTIDADE DE MÉDICO|"/>
+				<font type="header2"/>
+				<position type="relative" elementId="background" x="233" y="45"/>
+			</element>
+			<element type="label"> <!--		Elemento do tipo texto	-->
+				<!--	o recurso pode ser composto por vários campos, separados por vírgula	-->
+				<!--	para inserir texto fixo, deve ser colocado entre pipes (ex: |/|)	-->
+				<!--	o resourceId deve ser o nome da propriedade presente no json do atributo	-->
+				<mappedElement resourceId="crm_numero,|/|,crm_estado"/>
+				<font type="header"/>
+				<!--	a posição do elemento segue o plano cartesiano (x,y)	-->
+				<position type="absolute" x="425" y="90"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="nome_portador"/>
+				<font type="detail"/>
+				<position type="relative" elementId="background" x="170" y="90"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="filiacaoPai"/>
+				<font type="detail"/>
+				<position type="absolute" x="170" y="150"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="filiacaoMae"/>
+				<font type="detail"/>
+				<position type="absolute" x="170" y="175"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
+				<font type="detail"/>
+				<position type="absolute" x="60" y="230"/>
+			</element>
+			<element type="image">
+				<image resourceId="foto_portador"/>
+				<position type="absolute" x="390" y="150" w="120" h="120"/>
+			</element>
+		</page>
+		<page id="2" background="#000000">
+			<element type="background" id="background">
+				<image resourceId="cfm_modelo1_02"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="cpf_numero"/>
+				<font type="detail"/>
+				<position type="absolute" x="60" y="25"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor"/>
+				<font type="detail"/>
+				<position type="absolute" x="205" y="25"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="dataNascimento"/>
+				<font type="detail"/>
+				<position type="absolute" x="60" y="130"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="naturalidade"/>
+				<font type="detail"/>
+				<position type="absolute" x="205" y="130"/>
+			</element>
+			<element type="label">
+				<mappedElement resourceId="emissao_cidade,| - |,emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
+				<font type="detail"/>
+				<position type="absolute" x="60" y="180"/>
+			</element>
+		</page>
+		<page id="3" background="#FFFFFF">
+			<element type="background" id="background">
+				<image resourceId="none"/> <!--	quando não precisar de imagem de fundo, usar 'none'	-->
+			</element>
+			<element type="qrcode"> <!--	elemento do tipo qrcode	-->
+				<mappedElement resourceId=""/>
+				<!--	pode-se definir o tamanho do recurso (w para largura, h para altura)	-->
+				<!--	se a propriedade center estiver ativa, os parametros x e y serão ignorados	-->
+				<position type="absolute" center="true" w="0" h="0"/>
+			</element>
+		</page>
+	</viewer>
+</credential>
