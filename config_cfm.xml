@@ -288,31 +288,31 @@
 				<mappedElement resourceId="crm_numero,|/|,crm_estado"/>
 				<font type="header"/>
 				<!--	a posição do elemento segue o plano cartesiano (x,y)	-->
-				<position type="absolute" x="425" y="90"/>
+				<position type="absolute" x="395" y="94"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="nome_portador"/>
 				<font type="detail"/>
-				<position type="relative" elementId="background" x="170" y="90"/>
+				<position type="relative" elementId="background" x="139" y="94"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoPai"/>
 				<font type="detail"/>
-				<position type="absolute" x="170" y="150"/>
+				<position type="absolute" x="139" y="154"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoMae"/>
 				<font type="detail"/>
-				<position type="absolute" x="170" y="175"/>
+				<position type="absolute" x="139" y="154"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
 				<font type="detail"/>
-				<position type="absolute" x="60" y="230"/>
+				<position type="absolute" x="19" y="232"/>
 			</element>
 			<element type="image">
 				<image resourceId="foto_portador"/>
-				<position type="absolute" x="390" y="150" w="120" h="120"/>
+				<position type="absolute" x="362" y="130" w="125" h="167"/>
 			</element>
 		</page>
 		<page id="2" background="#000000">
@@ -322,27 +322,27 @@
 			<element type="label">
 				<mappedElement resourceId="cpf_numero"/>
 				<font type="detail"/>
-				<position type="absolute" x="60" y="25"/>
+				<position type="absolute" x="24" y="30"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor"/>
 				<font type="detail"/>
-				<position type="absolute" x="205" y="25"/>
+				<position type="absolute" x="185" y="30"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="dataNascimento"/>
 				<font type="detail"/>
-				<position type="absolute" x="60" y="130"/>
+				<position type="absolute" x="24" y="131"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="naturalidade"/>
 				<font type="detail"/>
-				<position type="absolute" x="205" y="130"/>
+				<position type="absolute" x="185" y="131"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_cidade,| - |,emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
 				<font type="detail"/>
-				<position type="absolute" x="60" y="180"/>
+				<position type="absolute" x="24" y="183"/>
 			</element>
 		</page>
 		<page id="3" background="#FFFFFF">
