@@ -312,7 +312,7 @@
 			</element>
 			<element type="image">
 				<image resourceId="foto_portador"/>
-				<position type="absolute" x="550" y="160" w="125" h="167"/>
+				<position type="absolute" x="500" y="160" w="135" h="190"/>
 			</element>
 		</page>
 		<page id="2" background="#000000">
