@@ -298,12 +298,12 @@
 			<element type="label">
 				<mappedElement resourceId="filiacaoPai"/>
 				<font type="header"/>
-				<position type="absolute" x="220" y="196"/>
+				<position type="absolute" x="220" y="198"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoMae"/>
 				<font type="header"/>
-				<position type="absolute" x="220" y="210"/>
+				<position type="absolute" x="220" y="214"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
@@ -312,7 +312,7 @@
 			</element>
 			<element type="image">
 				<image resourceId="foto_portador"/>
-				<position type="absolute" x="500" y="160" w="135" h="190"/>
+				<position type="absolute" x="520" y="150" w="135" h="190"/>
 			</element>
 		</page>
 		<page id="2" background="#000000">
@@ -322,27 +322,27 @@
 			<element type="label">
 				<mappedElement resourceId="cpf_numero"/>
 				<font type="header"/>
-				<position type="absolute" x="74" y="35"/>
+				<position type="absolute" x="72" y="35"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor"/>
 				<font type="header"/>
-				<position type="absolute" x="285" y="35"/>
+				<position type="absolute" x="280" y="35"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="dataNascimento"/>
 				<font type="header"/>
-				<position type="absolute" x="84" y="161"/>
+				<position type="absolute" x="72" y="163"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="naturalidade"/>
 				<font type="header"/>
-				<position type="absolute" x="295" y="171"/>
+				<position type="absolute" x="280" y="163"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_cidade,| - |,emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
 				<font type="header"/>
-				<position type="absolute" x="94" y="233"/>
+				<position type="absolute" x="72" y="232"/>
 			</element>
 		</page>
 		<page id="3" background="#FFFFFF">
