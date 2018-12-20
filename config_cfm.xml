@@ -292,22 +292,22 @@
 			</element>
 			<element type="label">
 				<mappedElement resourceId="nome_portador"/>
-				<font type="detail"/>
+				<font type="header"/>
 				<position type="relative" elementId="background" x="220" y="117"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoPai"/>
-				<font type="detail"/>
+				<font type="header"/>
 				<position type="absolute" x="220" y="196"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoMae"/>
-				<font type="detail"/>
+				<font type="header"/>
 				<position type="absolute" x="220" y="210"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
-				<font type="detail"/>
+				<font type="header"/>
 				<position type="absolute" x="66" y="295"/>
 			</element>
 			<element type="image">
@@ -321,28 +321,28 @@
 			</element>
 			<element type="label">
 				<mappedElement resourceId="cpf_numero"/>
-				<font type="detail"/>
-				<position type="absolute" x="24" y="30"/>
+				<font type="header"/>
+				<position type="absolute" x="74" y="35"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor"/>
-				<font type="detail"/>
-				<position type="absolute" x="185" y="30"/>
+				<font type="header"/>
+				<position type="absolute" x="285" y="35"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="dataNascimento"/>
-				<font type="detail"/>
-				<position type="absolute" x="24" y="131"/>
+				<font type="header"/>
+				<position type="absolute" x="84" y="161"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="naturalidade"/>
-				<font type="detail"/>
-				<position type="absolute" x="185" y="131"/>
+				<font type="header"/>
+				<position type="absolute" x="295" y="171"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_cidade,| - |,emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
-				<font type="detail"/>
-				<position type="absolute" x="24" y="183"/>
+				<font type="header"/>
+				<position type="absolute" x="94" y="233"/>
 			</element>
 		</page>
 		<page id="3" background="#FFFFFF">
