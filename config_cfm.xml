@@ -293,26 +293,26 @@
 			<element type="label">
 				<mappedElement resourceId="nome_portador"/>
 				<font type="detail"/>
-				<position type="relative" elementId="background" x="218" y="117"/>
+				<position type="relative" elementId="background" x="220" y="117"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoPai"/>
 				<font type="detail"/>
-				<position type="absolute" x="218" y="194"/>
+				<position type="absolute" x="220" y="196"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoMae"/>
 				<font type="detail"/>
-				<position type="absolute" x="218" y="204"/>
+				<position type="absolute" x="220" y="210"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
 				<font type="detail"/>
-				<position type="absolute" x="60" y="295"/>
+				<position type="absolute" x="66" y="295"/>
 			</element>
 			<element type="image">
 				<image resourceId="foto_portador"/>
-				<position type="absolute" x="362" y="130" w="125" h="167"/>
+				<position type="absolute" x="550" y="160" w="125" h="167"/>
 			</element>
 		</page>
 		<page id="2" background="#000000">
