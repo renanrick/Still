@@ -274,12 +274,12 @@
 			<element type="label">
 				<mappedElement resourceId="|CONSELHO REGIONAL DE MEDICINA DO ESTADO|"/>
 				<font type="header2"/>
-				<position type="relative" elementId="background" x="213" y="112"/>
+				<position type="relative" elementId="background" x="176" y="40"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="|CÉDULA DE IDENTIDADE DE MÉDICO|"/>
 				<font type="header2"/>
-				<position type="relative" elementId="background" x="248" y="127"/>
+				<position type="relative" elementId="background" x="211" y="55"/>
 			</element>
 			<element type="label"> <!--		Elemento do tipo texto	-->
 				<!--	o recurso pode ser composto por vários campos, separados por vírgula	-->
@@ -288,27 +288,27 @@
 				<mappedElement resourceId="crm_numero,|/|,crm_estado"/>
 				<font type="header"/>
 				<!--	a posição do elemento segue o plano cartesiano (x,y)	-->
-				<position type="absolute" x="420" y="129"/>
+				<position type="absolute" x="420" y="115"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="nome_portador"/>
 				<font type="detail"/>
-				<position type="relative" elementId="background" x="164" y="159"/>
+				<position type="relative" elementId="background" x="216" y="115"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoPai"/>
 				<font type="detail"/>
-				<position type="absolute" x="164" y="219"/>
+				<position type="absolute" x="216" y="184"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoMae"/>
 				<font type="detail"/>
-				<position type="absolute" x="164" y="219"/>
+				<position type="absolute" x="216" y="194"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
 				<font type="detail"/>
-				<position type="absolute" x="19" y="234"/>
+				<position type="absolute" x="40" y="310"/>
 			</element>
 			<element type="image">
 				<image resourceId="foto_portador"/>
