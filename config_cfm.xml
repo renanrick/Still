@@ -288,7 +288,7 @@
 				<mappedElement resourceId="crm_numero,|/|,crm_estado"/>
 				<font type="header"/>
 				<!--	a posição do elemento segue o plano cartesiano (x,y)	-->
-				<position type="absolute" x="420" y="117"/>
+				<position type="absolute" x="520" y="117"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="nome_portador"/>
