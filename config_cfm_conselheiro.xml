@@ -274,12 +274,12 @@
 			<element type="label">
 				<mappedElement resourceId="|CONSELHO REGIONAL DE MEDICINA DO ESTADO|"/>
 				<font type="header2"/>
-				<position type="relative" elementId="background" x="300" y="40"/>
+				<position type="relative" elementId="background" x="230" y="40"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="|CONSELHEIRO REGIONAL|"/>
 				<font type="header2"/>
-				<position type="relative" elementId="background" x="335" y="55"/>
+				<position type="relative" elementId="background" x="230" y="55"/>
 			</element>
 			<element type="label"> <!--		Elemento do tipo texto	-->
 				<!--	o recurso pode ser composto por vários campos, separados por vírgula	-->
@@ -293,12 +293,12 @@
 			<element type="label">
 				<mappedElement resourceId="nome_portador"/>
 				<font type="header"/>
-				<position type="relative" elementId="background" x="230" y="127"/>
+				<position type="relative" elementId="background" x="232" y="127"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="cargo"/>
 				<font type="header"/>
-				<position type="relative" elementId="background" x="230" y="177"/>
+				<position type="relative" elementId="background" x="232" y="177"/>
 			</element>
 			<element type="image">
 				<image resourceId="foto_portador"/>
@@ -307,22 +307,22 @@
 			<element type="label">
 				<mappedElement resourceId="dataNascimento"/>
 				<font type="header"/>
-				<position type="absolute" x="115" y="245"/>
+				<position type="absolute" x="117" y="245"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="cpf_numero"/>
 				<font type="header"/>
-				<position type="absolute" x="115" y="280"/>
+				<position type="absolute" x="117" y="285"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor"/>
 				<font type="header"/>
-				<position type="absolute" x="270" y="280"/>
+				<position type="absolute" x="272" y="285"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
 				<font type="header"/>
-				<position type="absolute" x="115" y="330"/>
+				<position type="absolute" x="117" y="330"/>
 			</element>
 		</page>
 		<page id="2" background="#000000">
