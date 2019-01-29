@@ -288,7 +288,7 @@
 				<mappedElement resourceId="crm_numero,|/|,crm_estado"/>
 				<font type="header"/>
 				<!--	a posição do elemento segue o plano cartesiano (x,y)	-->
-				<position type="absolute" x="500" y="330"/>
+				<position type="absolute" x="490" y="330"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="nome_portador"/>
@@ -302,27 +302,27 @@
 			</element>
 			<element type="image">
 				<image resourceId="foto_portador"/>
-				<position type="absolute" x="500" y="120" w="135" h="190"/>
+				<position type="absolute" x="490" y="110" w="135" h="190"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="dataNascimento"/>
 				<font type="header"/>
-				<position type="absolute" x="112" y="245"/>
+				<position type="absolute" x="115" y="245"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="cpf_numero"/>
 				<font type="header"/>
-				<position type="absolute" x="112" y="275"/>
+				<position type="absolute" x="115" y="280"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="rg_numero,|/|,rg_orgao_emissor"/>
 				<font type="header"/>
-				<position type="absolute" x="270" y="275"/>
+				<position type="absolute" x="270" y="280"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="emissao_dia,|/|,emissao_mes,|/|,emissao_ano"/>
 				<font type="header"/>
-				<position type="absolute" x="112" y="330"/>
+				<position type="absolute" x="115" y="330"/>
 			</element>
 		</page>
 		<page id="2" background="#000000">
@@ -332,12 +332,12 @@
 			<element type="label">
 				<mappedElement resourceId="filiacaoPai"/>
 				<font type="header"/>
-				<position type="absolute" x="82" y="133"/>
+				<position type="absolute" x="81" y="133"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="filiacaoMae"/>
 				<font type="header"/>
-				<position type="absolute" x="82" y="148"/>
+				<position type="absolute" x="81" y="148"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="naturalidade"/>
