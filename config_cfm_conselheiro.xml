@@ -307,7 +307,7 @@
 			<element type="label">
 				<mappedElement resourceId="dataNascimento"/>
 				<font type="header"/>
-				<position type="absolute" x="112" y="245"/>
+				<position type="absolute" x="312" y="245"/>
 			</element>
 			<element type="label">
 				<mappedElement resourceId="cpf_numero"/>
