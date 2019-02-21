@@ -179,7 +179,7 @@
 				<multiplier>1</multiplier> <!--	multiplicador para tamanho do device	-->
 				<correctionFactor>1.35</correctionFactor> <!--	fator correção para tamanho do device	-->
 				<offsetLeft>0</offsetLeft> <!--	margem esquerda adicional	-->
-				<offsetTop>0</offsetTop> <!--	margem superior adicional	-->
+				<offsetTop>5</offsetTop> <!--	margem superior adicional	-->
 				<fontMultiplier>1</fontMultiplier> <!--	multiplicador tamanho fonte	-->
 			</device>
 
