@@ -159,6 +159,14 @@
 				 iPhone_XR
 				 iPhone_XSMax
 			 -->
+			<device name="LG Electronics LG-X230">
+				<multiplier>1</multiplier> <!--	multiplicador para tamanho do device	-->
+				<correctionFactor>1</correctionFactor> <!--	fator correção para tamanho do device	-->
+				<offsetLeft>0</offsetLeft> <!--	margem esquerda adicional	-->
+				<offsetTop>100</offsetTop> <!--	margem superior adicional	-->
+				<fontMultiplier>1</fontMultiplier> <!--	multiplicador tamanho fonte	-->
+			</device>
+			
 			<device name="iPhones_5_5s_5c_SE">
 				<multiplier>1</multiplier> <!--	multiplicador para tamanho do device	-->
 				<correctionFactor>1</correctionFactor> <!--	fator correção para tamanho do device	-->
