@@ -158,12 +158,21 @@
 				 iPhones_X_XS
 				 iPhone_XR
 				 iPhone_XSMax
+				 samsung SM-G9650
 			 -->
 			<device name="LG Electronics LG-X230">
 				<multiplier>1</multiplier> <!--	multiplicador para tamanho do device	-->
 				<correctionFactor>1</correctionFactor> <!--	fator correção para tamanho do device	-->
 				<offsetLeft>0</offsetLeft> <!--	margem esquerda adicional	-->
 				<offsetTop>100</offsetTop> <!--	margem superior adicional	-->
+				<fontMultiplier>1</fontMultiplier> <!--	multiplicador tamanho fonte	-->
+			</device>
+			
+			<device name="samsung SM-G9650">
+				<multiplier>50</multiplier> <!--	multiplicador para tamanho do device	-->
+				<correctionFactor>50</correctionFactor> <!--	fator correção para tamanho do device	-->
+				<offsetLeft>50</offsetLeft> <!--	margem esquerda adicional	-->
+				<offsetTop>50</offsetTop> <!--	margem superior adicional	-->
 				<fontMultiplier>1</fontMultiplier> <!--	multiplicador tamanho fonte	-->
 			</device>
 			
